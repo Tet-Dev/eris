@@ -1,8 +1,63 @@
 {
-  "name": "eris",
-  "version": "0.14.0",
+  "_args": [
+    [
+      "github:abalabahaha/eris#dev",
+      "D:\\Stuff\\Nadeko"
+    ]
+  ],
+  "_from": "github:abalabahaha/eris#dev",
+  "_id": "eris@github:abalabahaha/eris#29b529324e6cd9c56eb67057555b7866b0c7b396",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/eris",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:abalabahaha/eris#dev",
+    "rawSpec": "github:abalabahaha/eris#dev",
+    "saveSpec": "github:abalabahaha/eris#dev",
+    "fetchSpec": null,
+    "gitCommittish": "dev"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:abalabahaha/eris#29b529324e6cd9c56eb67057555b7866b0c7b396",
+  "_spec": "github:abalabahaha/eris#dev",
+  "_where": "D:\\Stuff\\Nadeko",
+  "author": {
+    "name": "abalabahaha"
+  },
+  "browser": {
+    "child_process": false,
+    "dgram": false,
+    "dns": false,
+    "fs": false,
+    "node-opus": false,
+    "tls": false,
+    "tweetnacl": false,
+    "ws": false
+  },
+  "bugs": {
+    "url": "https://github.com/abalabahaha/eris/issues"
+  },
+  "dependencies": {
+    "opusscript": "^0.0.7",
+    "tweetnacl": "^1.0.1",
+    "ws": "^7.2.1"
+  },
   "description": "A NodeJS Discord library",
-  "main": "./index.js",
+  "devDependencies": {
+    "@types/node": "^8.10.63",
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "@typescript-eslint/parser": "^3.9.1",
+    "eslint": "^6.8.0",
+    "eslint-plugin-sort-class-members": "^1.8.0",
+    "typescript": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "exports": {
     ".": [
       {
@@ -14,20 +69,7 @@
     "./": "./",
     "./esm": "./esm.mjs"
   },
-  "typings": "./index.d.ts",
-  "engines": {
-    "node": ">=8.0.0"
-  },
-  "scripts": {
-    "lint:js": "eslint -c .eslintrc.yml lib examples *.js",
-    "lint:js:fix": "eslint -c .eslintrc.yml lib examples *.js --fix && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\"",
-    "lint:ts": "eslint -c .eslintrc.ts.yml *.ts",
-    "lint:ts:fix": "eslint -c .eslintrc.ts.yml *.ts --fix && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abalabahaha/eris.git"
-  },
+  "homepage": "https://abal.moe/Eris/",
   "keywords": [
     "api",
     "discord",
@@ -35,35 +77,23 @@
     "eris",
     "wrapper"
   ],
-  "author": "abalabahaha",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/abalabahaha/eris/issues"
-  },
-  "homepage": "https://abal.moe/Eris/",
-  "dependencies": {
-    "ws": "^7.2.1"
-  },
-  "devDependencies": {
-    "@types/node": "^8.10.63",
-    "@typescript-eslint/eslint-plugin": "^3.9.1",
-    "@typescript-eslint/parser": "^3.9.1",
-    "eslint": "^6.8.0",
-    "eslint-plugin-sort-class-members": "^1.8.0",
-    "typescript": "^4.0.2"
-  },
+  "main": "./index.js",
+  "name": "eris",
   "optionalDependencies": {
     "opusscript": "^0.0.7",
     "tweetnacl": "^1.0.1"
   },
-  "browser": {
-    "child_process": false,
-    "dgram": false,
-    "dns": false,
-    "fs": false,
-    "node-opus": false,
-    "tls": false,
-    "tweetnacl": false,
-    "ws": false
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abalabahaha/eris.git"
+  },
+  "scripts": {
+    "lint:js": "eslint -c .eslintrc.yml lib examples *.js",
+    "lint:js:fix": "eslint -c .eslintrc.yml lib examples *.js --fix && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\"",
+    "lint:ts": "eslint -c .eslintrc.ts.yml *.ts",
+    "lint:ts:fix": "eslint -c .eslintrc.ts.yml *.ts --fix && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\""
+  },
+  "typings": "./index.d.ts",
+  "version": "0.14.0"
 }
